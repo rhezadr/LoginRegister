@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/UsernameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:id="@+id/existUsername"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:id="@+id/PasswordText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/existPassword"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-light" />
+
+        <Button
+            android:id="@+id/LogoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Logout"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>
